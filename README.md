@@ -4,13 +4,14 @@ Mini Mite PWM
 A small, cheap, programmable PWM controller suitable for driving
 LEDs or motors.
 
-What good is it?  It's:
+What good is it?  Features:
 * Compact
 * Can drive two paralleled MOSFETs
 * Can take a kickback suppression (flywheel) diode for driving motors or solenoids.
 * Programmable since it's based on an AtTiny microcontroller
 * Has space for a couple of programmable status LEDs
-* Can take input from a switch or potentiometer.
+* Capable of input from a switch or potentiometer
+* Can monitor a thermistor for high temperature protection
 
 Choose your MOSFET(s), and if you're driving a
 motor, your kickback diode, and have at it.
