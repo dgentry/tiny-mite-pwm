@@ -1,0 +1,5 @@
+avr-firmware/main.elf
+avr-firmware/main.o
+mini-mite.b#[0-9]
+mini-mite.s#[0-9]
+mini-mite_gen_drufile.scr
