@@ -1,15 +1,23 @@
 Mini Mite PWM
 =============
 
-A small, cheap, powerful PWM controller for with LEDs or motors.
+A small, cheap, programmable PWM controller suitable for driving
+LEDs or motors.
 
-This is primarily a compact board for driving one or two MOSFETs to
-switch a load quickly.  Choose your MOSFET, and if you're driving a
+What good is it?  It's:
+* Compact
+* Can drive two paralleled MOSFETs
+* Can take a kickback suppression (flywheel) diode for driving motors or solenoids.
+* Programmable since it's based on an AtTiny microcontroller
+* Has space for a couple of programmable status LEDs
+* Can take input from a switch or potentiometer.
+
+Choose your MOSFET(s), and if you're driving a
 motor, your kickback diode, and have at it.
 
 I have built it with various MOSFETS and kickback diodes, but a good
-combination seems to be an IRF2804 and On Semiconductor MBR30H150 (30
-amp, 150 volt dual Schottky in a TO-220 package), where it happily
+combination seems to be an IRF2804 (42 volt, 270 amp) and On Semi MBR30H150
+(30 amp, 150 volt dual Schottky in a TO-220 package), where it happily
 controls a 25 amp fan motor in my Crown Victoria.  In that
 application, it's on the edge of needing heat sinks.
 
