@@ -41,7 +41,7 @@ total load current.  The IRFZ44 is only rated at 49 amps (vs. 270 amps
 for the IRF2804), but that should be OK (with a heatsink) for my 25
 amp fan motor.
 
-V_ds should be well above the maximum transient voltage spike you ever
+V_ds must be well above the maximum transient voltage spike you ever
 expect, since MOSFETs can instantly fail if you exceed that voltage,
 even for a moment.  In a car (nominally 13.6 volts), Automotive rated
 MOSFETS like the IRF2804 or the IRFZ44N should be fine, and they have
