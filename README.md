@@ -70,3 +70,8 @@ then.  I haven't noticed any whine from my motor or circuit (it's in a
 noisy car, after all), so switching at 2 khz doesn't add much in the
 way of switching losses, while the motor still "sees" relatively
 smooth power.
+
+Datasheets
+----------
+IRF2804:  http://www.irf.com/product-info/datasheets/data/irf2804.pdf
+http://www.newark.com/international-rectifier/irf2804pbf/n-ch-mosfet-40v-270a-to-220ab/dp/63J7214
