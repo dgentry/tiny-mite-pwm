@@ -1,14 +1,14 @@
-Mini Mite PWM
+TinyMite PWM
 =============
 
 A small, cheap, programmable PWM controller suitable for driving
-LEDs or motors.
+LEDs or motors.  Based on 8 pin ATTiny uControllers.
 
 What good is it?  Features:
-* Compact
+* Compact (1" x 1.25")
 * Can drive two paralleled MOSFETs
 * Can take a kickback suppression (flywheel) diode for driving motors or solenoids.
-* Programmable since it's based on an AtTiny microcontroller
+* Programmable since it's based on an AtTiny microcontroller (ATTiny 25, 45, 85, and probably 13 all work).
 * Has space for a couple of programmable status LEDs
 * Capable of input from a switch or potentiometer
 * Can monitor a thermistor for high temperature protection
